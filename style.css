@@ -1,0 +1,62 @@
+html {
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+}
+
+body {
+    background: linear-gradient(to top, #00133b, #101010);
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#title {
+    font-size: 40px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+#info {
+    color: #888888;
+    font-size: 20px;
+}
+
+#api {
+    text-decoration: none;
+    color: #888888;
+}
+
+#api:hover {
+    text-decoration: underline;
+}
+
+.dataItem {
+    border-radius: 20px;
+    background-color: #252534;
+    margin: 150px;
+        margin-left: 200px;
+        margin-right: 200px;
+    padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+}
+
+#distInfo {
+    display: grid;
+    grid-template-rows: 2;
+}
+
+#distInfoTitle {
+    color: #888888;
+    font-size: 25px;
+    padding: 5px;
+    border-bottom: 1px solid #575757;
+}
+
+#distInfoData {
+    padding: 20px;
+    font-size: 65px;
+    transition: opacity 1s;
+}

@@ -1,5 +1,4 @@
 let distInfoData = document.getElementById('distInfoData');
-
 var userX;
 var userY;
 var userZ; // earth radius: 3963 miles
@@ -13,7 +12,6 @@ const issAlt = 4217; // avg ISS altitude: 254 miles, 4217 miles from earth cente
 window.onload = () => {
     getUserLocation();
 }
-
 
 // gets the iss coordinates and next passover from the open notify api
 function issData() {
@@ -29,8 +27,7 @@ function issData() {
     .catch(function() {
 		handleLocationError("Cannot access ISS location, ");
     })
-
-    setTimeout(issData, 1500);
+    setTimeout(issData, 3000);
 }
 
 // makes a geolocation request, calculates distance, and fetches the next iss overhead pass
